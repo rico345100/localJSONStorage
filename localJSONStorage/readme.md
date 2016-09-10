@@ -15,7 +15,7 @@ console.log(JSON.parse(localStorage.get('people')));
 Only you need is use extended two new methods: getJSON and setJSON
 
 ```javascript
-import localStorage from './localJSONStorage';
+import localStorage from './localjsonstorage';
 
 var people = { name: '.modernator', age: 25 };
 localStorage.setJSON('people', people);
